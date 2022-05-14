@@ -1,0 +1,7 @@
+project: rnshah9/mayhem-picoc
+target: picoc
+tests: null
+
+cmds:
+  - cmd: /repo/picoc @@
+    filepath: /test.c
