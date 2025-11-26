@@ -1,0 +1,10 @@
+project: mayhemheroes/picoc
+target: picoc
+
+cmds:
+  - cmd: /picoc @@
+    env: {}
+image: ghcr.io/mayhemheroes/picoc@sha256:3f43eafbe29511b19dcb9170ce040ce8fe73ef61ec7051a46b40a9cd82276dd3
+duration: 60
+testsuite:
+  - https://app.mayhem.security/mayhemheroes/picoc/picoc/testsuite.tar

@@ -1,0 +1,12 @@
+{
+  "workspace": "mayhemheroes",
+  "project": "picoc",
+  "target": "picoc",
+  "run_id": "8",
+  "ci_url": "https://github.com:443/mayhemheroes/picoc/actions/runs/3113355418",
+  "run_image_name": "ghcr.io/mayhemheroes/picoc:master",
+  "run_image_with_digest": "ghcr.io/mayhemheroes/picoc@sha256:3f43eafbe29511b19dcb9170ce040ce8fe73ef61ec7051a46b40a9cd82276dd3",
+  "git_repo_url": "git@github.com:mayhemheroes/picoc.git",
+  "git_revision": "c34a3d5d4c983df066c8602c558b3751776a139c",
+  "target_executable": "/picoc"
+}

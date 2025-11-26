@@ -22,3 +22,4 @@ analysis.txt
 gmon.out
 tests/gmon.out
 .idea/
+rlenv/mayhem/data/testsuite
