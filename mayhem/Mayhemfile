@@ -1,0 +1,12 @@
+project: picoc
+target: picoc
+
+cmds:
+  # In-process libFuzzer harness over the same code path the original
+  # `/picoc @@` file-input target exercised (scan source, then run main()).
+  - cmd: /mayhem/fuzz_picoc
+    libfuzzer: true
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/picoc/testsuite
